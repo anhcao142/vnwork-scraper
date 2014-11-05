@@ -1,0 +1,40 @@
+{
+  "name": "vnwork-crawler",
+  "version": "0.0.1",
+  "description": "Use to crawl job information from vietnamworks.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/boylove142/vnwork-crawler.git"
+  },
+  "keywords": [
+    "vnwork",
+    "vietnamwork",
+    "crawl",
+    "crawling",
+    "crawler",
+    "vietnamworks.com"
+  ],
+  "author": "boylove142",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/boylove142/vnwork-crawler/issues"
+  },
+  "dependencies": {
+    "express": "~4.10.1",
+    "request": "~2.47.0",
+    "cheerio": "~0.17.0",
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.3.3",
+    "morgan": "~1.3.0",
+    "serve-favicon": "~2.1.3",
+    "debug": "~2.0.0",
+    "jade": "~1.6.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  }
+}
